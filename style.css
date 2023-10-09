@@ -1,0 +1,214 @@
+header h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  flex: 1;
+  padding: 10px;
+  background-color: #303852;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 20px;
+}
+img{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-right: 10px;
+ 
+}
+
+p{
+  font-size: 15px;
+  margin: 1px;
+}
+h1{
+  color: white;
+}
+.header {
+
+  display: flex;
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+/*for box border of the whole resume*/
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color:#F8F5FC;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 10px;
+
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #303852;
+}
+
+.icon-label {
+  font-size: 14px;
+}
+
+.icons i {
+  font-size: 25px;
+  padding: 8px;
+  background-color: #303852;
+  color: #fff;
+  border-radius: 30%;
+  margin-left: 18px; 
+  margin-right: 18px; 
+}
+
+
+.details,
+.education,
+.project {
+    padding: 5px;
+    margin: 1px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.employment {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0; 
+}
+
+
+.project h2,
+.details h2,
+.employment h2,
+.education h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+
+.employment ul, .skillSet ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.details li {
+    font-size: 16px;
+    margin-bottom: 2px; 
+}
+
+
+.employment table,
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employment table th,
+.employment table td,
+.education table th,
+.education table td {
+
+    padding: 8px;
+    text-align: center;
+}
+.separator {
+  margin: 1px auto; 
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: none;
+  border-top: 3px solid #303852; 
+}
+
+.skillSet {
+  text-align: center;
+
+}
+.skillSet ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.skillSet ul li {
+  color: white;
+  background-color: #303852;
+  padding: 15px;
+  margin: 7px 0; 
+  display: inline-block;
+  border-radius: 15px;
+  margin-left: 18px; 
+  margin-right: 18px; 
+}
+
+
+table th {
+    background-color: #303852;
+    color: #fff;
+}
+
+.calculator {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #303852;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.numBox input[type="number"] {
+  width: 130px;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.operator {
+  display: flex;
+  margin-top: 20px;
+}
+
+.operator button {
+  background-color: #F8F5FC;
+  color: #303852;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 15px;
+}
+
+#MyId {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
